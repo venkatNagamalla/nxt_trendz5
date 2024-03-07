@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.total-price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.total-price-inner-container {
+  width: 233px;
+}
+
+.total-price {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 23px;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.total-heading {
+  color: #616e7c;
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.no-of-items {
+  color: #616e7c;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.mobile-btn {
+  width: 100%;
+  background-color: #0b69ff;
+  border: none;
+  color: #ffffff;
+  height: 35px;
+  font-family: 'Roboto';
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-btn {
+    width: 233px;
+  }
+}
